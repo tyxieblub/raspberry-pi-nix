@@ -27,7 +27,7 @@ final: prev: {
   };
 
   libcamera = prev.libcamera.overrideAttrs (old: {
-    version = "0.3.1";
+    version = "0.3.2";
     src = libcamera-src;
     buildInputs = old.buildInputs ++ (with final; [
       libpisp

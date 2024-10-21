@@ -29,12 +29,11 @@
     };
     rpicam-apps-src = {
       flake = false;
-      #url = "github:raspberrypi/rpicam-apps/v1.5.2";
-      url = "github:raspberrypi/rpicam-apps/v1.5.1";
+      url = "github:raspberrypi/rpicam-apps/v1.5.2";
     };
     libcamera-src = {
       flake = false;
-      url = "github:raspberrypi/libcamera/69a894c4adad524d3063dd027f5c4774485cf9db"; # v0.3.1+rpt20240906
+      url = "github:raspberrypi/libcamera/7330f29b38b7fa32f753297b4d1c8ecbbfcf0df5"; # v0.3.2+rpt20240927
     };
     libpisp-src = {
       flake = false;

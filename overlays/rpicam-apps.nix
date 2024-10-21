@@ -2,7 +2,7 @@
 
 stdenv.mkDerivation {
   pname = "libcamera-apps";
-  version = "v1.5.0";
+  version = "v1.5.2";
 
   src = rpicam-apps-src;
 
