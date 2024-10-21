@@ -58,7 +58,7 @@ final: prev: {
       "-Dqcam=disabled"
       "-Ddocumentation=enabled"
       "-Dpycamera=enabled"
+      "-Dwerror=false"
     ];
-    doCheck = false;
   });
 }
