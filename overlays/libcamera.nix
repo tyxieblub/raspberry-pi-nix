@@ -56,7 +56,7 @@ final: prev: {
       "-Dlc-compliance=disabled"
       "-Dcam=disabled"
       "-Dqcam=disabled"
-      "-Ddocumentation=enabled"
+      "-Ddocumentation=disabled"
       "-Dpycamera=enabled"
       "-Dwerror=false"
     ];
