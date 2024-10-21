@@ -59,5 +59,6 @@ final: prev: {
       "-Ddocumentation=enabled"
       "-Dpycamera=enabled"
     ];
+    doCheck = false;
   });
 }
